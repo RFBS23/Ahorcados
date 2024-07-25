@@ -45,5 +45,5 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [fa
 
 ## Desarrollador
 
-<h3><b>Aplicacion Desarrollada por:</b> Fabrizio Barrios Saavedra (RFBS19 - fabridev)</h3>
+<h3><b>Aplicacion Desarrollada por:</b> Fabrizio Barrios Saavedra (RFBS19 - FabriDev)</h3>
 <img src="readme/foter.jpg" width="200" alt="avatar">
