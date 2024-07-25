@@ -1,0 +1,15 @@
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\bin\Debug\Ahorcados - FabriDev.exe.config
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\bin\Debug\Ahorcados - FabriDev.exe
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\bin\Debug\Ahorcados - FabriDev.pdb
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\bin\Debug\Guna.UI2.dll
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados.csproj.AssemblyReference.cache
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados.formmensajegano.resources
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados.frmnivel1.resources
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados.frmniveles.resources
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados.Inicio.resources
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados.Properties.Resources.resources
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados.csproj.GenerateResource.cache
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados.csproj.CoreCompileInputs.cache
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados.csproj.Up2Date
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados - FabriDev.exe
+C:\Users\fabri\Documents\Programacion\C-Sharp\Ahorcados\obj\Debug\Ahorcados - FabriDev.pdb
