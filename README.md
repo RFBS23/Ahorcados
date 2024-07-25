@@ -19,7 +19,7 @@
 <img src="readme/nivel1.png" alt="Pantalla de victoria" width="300"/>
 
 ### Pantalla de derrota
-<img src="readme/niveles2.png" alt="Pantalla de derrota" width="300"/>
+<img src="readme/nivel2.png" alt="Pantalla de derrota" width="300"/>
 
 ## Cómo jugar
 
@@ -30,9 +30,9 @@
 
 ## Instalación
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/ahorcados.git`
-2. Abre el proyecto en tu entorno de desarrollo favorito.
-3. Ejecuta el proyecto y comienza a jugar.
+1. Descarga el instalador: [Haz click para descargar Instalador](https://github.com/RFBS23/Ahorcados/releases/download/1.0.0/Ahorcados.-.FabriDev.msi)
+2. Abre el instalador en tu entorno de desarrollo favorito.
+3. Ejecuta el instalador y comienza a jugar.
 
 ## Licencia
 
