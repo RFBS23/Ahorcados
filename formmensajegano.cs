@@ -19,8 +19,6 @@ namespace Ahorcados
 
         private void piccontinuar_Click(object sender, EventArgs e)
         {
-            frmniveles niveles = new frmniveles();
-            niveles.Show();
             this.Hide();
         }
     }

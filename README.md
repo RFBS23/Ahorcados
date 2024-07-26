@@ -30,7 +30,7 @@
 
 ## Instalación
 
-1. Descarga el instalador: [Haz click para descargar Instalador](https://github.com/RFBS23/Ahorcados/releases/download/1.0.0/Ahorcados.-.FabriDev.msi)
+1. Descarga el instalador: [Haz click para descargar Instalador](https://github.com/RFBS23/Ahorcados/releases/download/1.0.1/Ahorcados.-.FabriDev.msi)
 2. Abre el instalador en tu entorno de desarrollo favorito.
 3. Ejecuta el instalador y comienza a jugar.
 
