@@ -423,6 +423,16 @@ namespace Ahorcados.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap telegrama {
+            get {
+                object obj = ResourceManager.GetObject("telegrama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap triste_memoji {
             get {
                 object obj = ResourceManager.GetObject("triste memoji", resourceCulture);

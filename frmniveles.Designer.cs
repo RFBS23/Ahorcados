@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmniveles));
             this.panelniveles = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnnivel10 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnnivel9 = new Guna.UI2.WinForms.Guna2Button();
             this.btnnivel8 = new Guna.UI2.WinForms.Guna2Button();
@@ -40,6 +39,9 @@
             this.btnnivel4 = new Guna.UI2.WinForms.Guna2Button();
             this.btnnivel3 = new Guna.UI2.WinForms.Guna2Button();
             this.btnnivel2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnnivel1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnnivel10 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTelegram = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -50,8 +52,9 @@
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.btnnivel1 = new Guna.UI2.WinForms.Guna2Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelniveles.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTelegram)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
@@ -67,6 +70,8 @@
             // panelniveles
             // 
             this.panelniveles.AutoScroll = true;
+            this.panelniveles.Controls.Add(this.label2);
+            this.panelniveles.Controls.Add(this.btnTelegram);
             this.panelniveles.Controls.Add(this.btnnivel10);
             this.panelniveles.Controls.Add(this.label1);
             this.panelniveles.Controls.Add(this.btnnivel9);
@@ -94,22 +99,6 @@
             this.panelniveles.Size = new System.Drawing.Size(1309, 802);
             this.panelniveles.TabIndex = 47;
             // 
-            // btnnivel10
-            // 
-            this.btnnivel10.BorderRadius = 12;
-            this.btnnivel10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnnivel10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnnivel10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnnivel10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnnivel10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnnivel10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnnivel10.ForeColor = System.Drawing.Color.White;
-            this.btnnivel10.Location = new System.Drawing.Point(467, 691);
-            this.btnnivel10.Name = "btnnivel10";
-            this.btnnivel10.Size = new System.Drawing.Size(141, 64);
-            this.btnnivel10.TabIndex = 69;
-            this.btnnivel10.Text = "INGRESAR";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -134,6 +123,7 @@
             this.btnnivel9.Size = new System.Drawing.Size(141, 64);
             this.btnnivel9.TabIndex = 67;
             this.btnnivel9.Text = "INGRESAR";
+            this.btnnivel9.Click += new System.EventHandler(this.btnnivel9_Click);
             // 
             // btnnivel8
             // 
@@ -150,6 +140,7 @@
             this.btnnivel8.Size = new System.Drawing.Size(141, 64);
             this.btnnivel8.TabIndex = 66;
             this.btnnivel8.Text = "INGRESAR";
+            this.btnnivel8.Click += new System.EventHandler(this.btnnivel8_Click);
             // 
             // btnnivel7
             // 
@@ -166,6 +157,7 @@
             this.btnnivel7.Size = new System.Drawing.Size(141, 64);
             this.btnnivel7.TabIndex = 65;
             this.btnnivel7.Text = "INGRESAR";
+            this.btnnivel7.Click += new System.EventHandler(this.btnnivel7_Click);
             // 
             // btnnivel6
             // 
@@ -182,6 +174,7 @@
             this.btnnivel6.Size = new System.Drawing.Size(141, 64);
             this.btnnivel6.TabIndex = 64;
             this.btnnivel6.Text = "INGRESAR";
+            this.btnnivel6.Click += new System.EventHandler(this.btnnivel6_Click);
             // 
             // btnnivel5
             // 
@@ -198,6 +191,7 @@
             this.btnnivel5.Size = new System.Drawing.Size(141, 64);
             this.btnnivel5.TabIndex = 63;
             this.btnnivel5.Text = "INGRESAR";
+            this.btnnivel5.Click += new System.EventHandler(this.btnnivel5_Click);
             // 
             // btnnivel4
             // 
@@ -214,6 +208,7 @@
             this.btnnivel4.Size = new System.Drawing.Size(141, 64);
             this.btnnivel4.TabIndex = 62;
             this.btnnivel4.Text = "INGRESAR";
+            this.btnnivel4.Click += new System.EventHandler(this.btnnivel4_Click);
             // 
             // btnnivel3
             // 
@@ -230,6 +225,7 @@
             this.btnnivel3.Size = new System.Drawing.Size(141, 64);
             this.btnnivel3.TabIndex = 61;
             this.btnnivel3.Text = "INGRESAR";
+            this.btnnivel3.Click += new System.EventHandler(this.btnnivel3_Click);
             // 
             // btnnivel2
             // 
@@ -247,6 +243,53 @@
             this.btnnivel2.TabIndex = 60;
             this.btnnivel2.Text = "INGRESAR";
             this.btnnivel2.Click += new System.EventHandler(this.btnnivel2_Click);
+            // 
+            // btnnivel1
+            // 
+            this.btnnivel1.BorderRadius = 12;
+            this.btnnivel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnnivel1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnnivel1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnnivel1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnnivel1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnnivel1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnivel1.ForeColor = System.Drawing.Color.White;
+            this.btnnivel1.Location = new System.Drawing.Point(154, 206);
+            this.btnnivel1.Name = "btnnivel1";
+            this.btnnivel1.Size = new System.Drawing.Size(141, 64);
+            this.btnnivel1.TabIndex = 48;
+            this.btnnivel1.Text = "INGRESAR";
+            this.btnnivel1.Click += new System.EventHandler(this.btnnivel1_Click);
+            // 
+            // btnnivel10
+            // 
+            this.btnnivel10.BorderRadius = 12;
+            this.btnnivel10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnnivel10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnnivel10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnnivel10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnnivel10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnnivel10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnivel10.ForeColor = System.Drawing.Color.White;
+            this.btnnivel10.Location = new System.Drawing.Point(467, 691);
+            this.btnnivel10.Name = "btnnivel10";
+            this.btnnivel10.Size = new System.Drawing.Size(141, 64);
+            this.btnnivel10.TabIndex = 69;
+            this.btnnivel10.Text = "INGRESAR";
+            this.btnnivel10.Click += new System.EventHandler(this.btnnivel10_Click);
+            // 
+            // btnTelegram
+            // 
+            this.btnTelegram.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTelegram.Image = global::Ahorcados.Properties.Resources.telegrama;
+            this.btnTelegram.ImageRotate = 0F;
+            this.btnTelegram.Location = new System.Drawing.Point(1196, 663);
+            this.btnTelegram.Name = "btnTelegram";
+            this.btnTelegram.Size = new System.Drawing.Size(77, 77);
+            this.btnTelegram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnTelegram.TabIndex = 70;
+            this.btnTelegram.TabStop = false;
+            this.btnTelegram.Click += new System.EventHandler(this.btnTelegram_Click);
             // 
             // guna2PictureBox11
             // 
@@ -358,22 +401,15 @@
             this.guna2PictureBox12.TabIndex = 49;
             this.guna2PictureBox12.TabStop = false;
             // 
-            // btnnivel1
+            // label2
             // 
-            this.btnnivel1.BorderRadius = 12;
-            this.btnnivel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnnivel1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnnivel1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnnivel1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnnivel1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnnivel1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnnivel1.ForeColor = System.Drawing.Color.White;
-            this.btnnivel1.Location = new System.Drawing.Point(154, 206);
-            this.btnnivel1.Name = "btnnivel1";
-            this.btnnivel1.Size = new System.Drawing.Size(141, 64);
-            this.btnnivel1.TabIndex = 48;
-            this.btnnivel1.Text = "INGRESAR";
-            this.btnnivel1.Click += new System.EventHandler(this.btnnivel1_Click);
+            this.label2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1167, 744);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(130, 49);
+            this.label2.TabIndex = 71;
+            this.label2.Text = "¡Sugiéreme un nivel!";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmniveles
             // 
@@ -389,8 +425,10 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Niveles - Ahorcados";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmniveles_FormClosed);
+            this.Load += new System.EventHandler(this.frmniveles_Load);
             this.panelniveles.ResumeLayout(false);
             this.panelniveles.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTelegram)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
@@ -408,7 +446,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel panelniveles;
-        private Guna.UI2.WinForms.Guna2Button btnnivel10;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button btnnivel9;
         private Guna.UI2.WinForms.Guna2Button btnnivel8;
@@ -429,5 +466,8 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox12;
         private Guna.UI2.WinForms.Guna2Button btnnivel1;
+        private Guna.UI2.WinForms.Guna2Button btnnivel10;
+        private Guna.UI2.WinForms.Guna2PictureBox btnTelegram;
+        private System.Windows.Forms.Label label2;
     }
 }
